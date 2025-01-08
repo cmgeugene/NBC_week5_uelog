@@ -73,7 +73,7 @@ void AMyActor::BeginPlay()
 
 	UE_LOG(LogTemp, Log, TEXT("좌표 초기화. 현재 좌표 : ( %f , %f )"), start.X, start.Y);
 
-	move(15);
+	move(10);
 	
 }
 
